@@ -6,7 +6,59 @@ export const HeroWrapper = styled.section`
   background: var(--page-grey);
 `;
 
-export const HeroContainer = styled.div`
+export const HeroContainerOne = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -1px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  @media (min-width: 43.8125rem) {
+    z-index: 0;
+  }
+`;
+
+export const HeroContentMobile = styled.div``;
+
+export const HeroMobileTitle = styled.h1`
+  font: 400 3.125rem/1 Roobert;
+  text-decoration: underline;
+  text-transform: uppercase;
+`;
+
+export const HeroContentDesktop = styled.div`
+  width: calc(100% - 15rem);
+`;
+
+export const HeroTitle = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span {
+    opacity: 0.4;
+    visibility: inherit;
+    font: 400 1.25rem/1 Roobert;
+    text-transform: uppercase;
+  }
+`;
+
+export const HeroTitleContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 1.25rem;
+  }
+`;
+
+export const HeroContainerTwo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,8 +68,8 @@ export const HeroContainer = styled.div`
   z-index: 2;
 `;
 
-export const HeroContent = styled.div`
-  padding: 7.25rem 0 31.25rem;
+export const HeroContentTwo = styled.div`
+  padding: 20.9375rem 0 31.25rem;
 `;
 
 export const HeroText = styled.div`

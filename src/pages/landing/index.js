@@ -3,12 +3,14 @@ import styled from "styled-components";
 import { LandingLayout } from "../../layouts";
 // @import pages
 import Hero from "./hero";
-// import NFTs from "./nfts";
-// import Intro from "./intro";
-// import OpenSea from "./opensea";
+import NFTs from "./nfts";
+import Intro from "./intro";
+import OpenSea from "./opensea";
+import Drivers from "./drivers";
+import Options from "./options";
+import Footer from "./footer";
 // @import styles
 const SectionGroupContainer = styled.div`
-  position: fixed;
   opacity: 1;
   visibility: inherit;
   overflow: unset;
@@ -30,7 +32,6 @@ const SectionGroup = styled.div`
 `;
 
 const SectionContent = styled.div`
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -43,9 +44,12 @@ const Landing = () => {
         <SectionGroup>
           <SectionContent>
             <Hero />
-            {/* <NFTs />
+            <NFTs />
             <Intro />
-            <OpenSea /> */}
+            <OpenSea />
+            <Drivers />
+            <Options />
+            <Footer />
           </SectionContent>
         </SectionGroup>
       </SectionGroupContainer>

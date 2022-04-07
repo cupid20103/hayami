@@ -16,7 +16,7 @@ export const HeaderContent = styled.div`
   left: 1.5625rem;
   right: 1.5625rem;
   padding-top: 1.5625rem;
-  color: rgba(255, 255, 2555, 1);
+  color: rgba(255, 153, 102, 1);
   overflow: hidden;
   transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   border-radius: 0.625rem;
@@ -35,7 +35,7 @@ export const HeaderItems = styled.div`
   position: relative;
   height: 4.0625rem;
   padding: 1rem 1.5625rem 1.0625rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(191, 191, 191, 0.3);
   border-radius: 0.625rem;
   overflow: hidden;
   @media (min-width: 43.8125rem) {
@@ -80,7 +80,7 @@ export const HeaderNavIndex = styled(Link)`
   display: flex;
   flex-direction: row;
   margin-left: 1.5625rem;
-  opacity: 0.4;
+  opacity: 0.5;
   span {
     display: block;
     font: 400 0.75rem/1 GT America Mono Regular;

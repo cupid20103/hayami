@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const OpenSeaContainer = styled.section`
+export const DriverContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,11 +15,11 @@ export const OpenSeaContainer = styled.section`
   @media (min-width: 43.8125rem) {
     -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
-    margin-top: -20%;
+    margin-top: -25%;
   }
 `;
 
-export const OpenSeaContent = styled.div`
+export const DriverContent = styled.div`
   width: 100%;
   height: 100vh;
   @media (min-width: 43.8125rem) {
@@ -27,7 +27,7 @@ export const OpenSeaContent = styled.div`
   }
 `;
 
-export const OpenSeaBack = styled.div`
+export const DriverBack = styled.div`
   position: absolute;
   top: -10%;
   height: 120%;
@@ -48,7 +48,7 @@ export const OpenSeaBack = styled.div`
   }
 `;
 
-export const OpenSeaGrid = styled.div`
+export const DriverGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, [start] 1fr);
   grid-gap: 1.25rem;
@@ -67,20 +67,20 @@ export const OpenSeaGrid = styled.div`
   }
 `;
 
-export const OpenSeaPart = styled.div`
+export const DriverPart = styled.div`
   grid-column: start/span 4;
   text-align: center;
   @media (min-width: 43.8125rem) {
-    grid-column: 7 / span 5;
+    grid-column: 2 / span 5;
     text-align: left;
   }
 `;
 
-export const OpenSeaTitle = styled.h2`
-  margin-bottom: 2.5rem;
+export const DriverTitle = styled.h2`
   font: 400 3.125rem/1 Roobert;
   text-decoration: underline;
   text-transform: uppercase;
+  margin-bottom: 2.5rem;
   & > :not(:last-child) {
     opacity: 0.4;
   }

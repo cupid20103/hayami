@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const OpenSeaContainer = styled.section`
+export const OptionsContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,7 @@ export const OpenSeaContainer = styled.section`
   }
 `;
 
-export const OpenSeaContent = styled.div`
+export const OptionsContent = styled.div`
   width: 100%;
   height: 100vh;
   @media (min-width: 43.8125rem) {
@@ -27,14 +27,14 @@ export const OpenSeaContent = styled.div`
   }
 `;
 
-export const OpenSeaBack = styled.div`
+export const OptionsBack = styled.div`
   position: absolute;
   top: -10%;
   height: 120%;
   width: 100%;
   bottom: -10%;
   picture,
-  img {
+  video {
     display: block;
     position: absolute;
     top: 0;
@@ -48,14 +48,14 @@ export const OpenSeaBack = styled.div`
   }
 `;
 
-export const OpenSeaGrid = styled.div`
+export const OptionsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, [start] 1fr);
   grid-gap: 1.25rem;
-  position: absolute;
   align-content: center;
   justify-content: center;
   color: #fff;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -67,7 +67,7 @@ export const OpenSeaGrid = styled.div`
   }
 `;
 
-export const OpenSeaPart = styled.div`
+export const OptionsPart = styled.div`
   grid-column: start/span 4;
   text-align: center;
   @media (min-width: 43.8125rem) {
@@ -76,9 +76,9 @@ export const OpenSeaPart = styled.div`
   }
 `;
 
-export const OpenSeaTitle = styled.h2`
+export const OptionsTitle = styled.h2`
   margin-bottom: 2.5rem;
-  font: 400 3.125rem/1 Roobert;
+  font: 400 2.875rem / 1 Roobert;
   text-decoration: underline;
   text-transform: uppercase;
   & > :not(:last-child) {
@@ -88,6 +88,6 @@ export const OpenSeaTitle = styled.h2`
     font-size: 3.5rem;
   }
   @media (min-width: 64.0625rem) {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 `;

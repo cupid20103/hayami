@@ -1,6 +1,7 @@
+// @import components
+import LinkButton from "../../../components/LinkButton";
 // @import styles
 import {
-  OpenSeaAction,
   OpenSeaBack,
   OpenSeaContainer,
   OpenSeaContent,
@@ -9,7 +10,7 @@ import {
   OpenSeaTitle,
 } from "./opensea.styled";
 // @import resources
-import opensea from "../../../assets/images/back1.jpeg";
+import opensea from "../../../assets/images/back1.webp";
 
 const OpenSea = () => {
   return (
@@ -33,9 +34,9 @@ const OpenSea = () => {
                 <span>{"COLLECTION"}</span>
               </div>
             </OpenSeaTitle>
-            <OpenSeaAction href="https://opensea.io/collection/mekaverse">
+            <LinkButton target={"https://opensea.io/collection/mekaverse"}>
               <span>{"View on Opensea"}</span>
-            </OpenSeaAction>
+            </LinkButton>
           </OpenSeaPart>
         </OpenSeaGrid>
       </OpenSeaContent>
