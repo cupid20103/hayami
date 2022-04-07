@@ -9,7 +9,7 @@ import {
 // @import resources
 import BotPolygonSVG from "../../assets/svgs/BotPolygonSVG";
 import BotMessageSVG from "../../assets/svgs/BotMessageSVG";
-import bot from "../../assets/images/bot3.jpg";
+import avatar from "../../assets/images/avatar.png";
 
 const Bot = () => {
   return (
@@ -18,7 +18,7 @@ const Bot = () => {
         <BotItems>
           <BotPolygonSVG />
           <BotImageItem to={"/mekabots"}>
-            <img src={bot} alt={"Claim your Mekabots"} />
+            <img src={avatar} alt={"Claim your Mekabots"} />
           </BotImageItem>
           <BotMessageItem to={"/mekabots"}>
             <span>{"Claim your Mekabots now!"}</span>

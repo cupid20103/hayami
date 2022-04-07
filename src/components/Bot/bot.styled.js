@@ -11,6 +11,7 @@ export const BotContainer = styled.div`
   width: 100%;
   height: 100%;
   pointer-events: none;
+  z-index: 5;
   @media (min-width: 43.8125rem) {
     display: block;
   }
@@ -22,7 +23,7 @@ export const BotContent = styled.div`
   right: 0;
   width: 100%;
   height: 100%;
-  color: rgb(255, 153, 102);
+  color: rgb(255, 128, 0);
 `;
 
 export const BotItems = styled.div`
@@ -39,8 +40,7 @@ export const BotImageItem = styled(Link)`
   position: relative;
   width: 4.8125rem;
   height: 4.375rem;
-  -webkit-clip-path: url(#mask);
-  clip-path: url(#mask);
+  clip-path: circle(40%);
   margin-left: 1.5625rem;
   img {
     position: absolute;
@@ -63,7 +63,7 @@ export const BotMessageItem = styled(Link)`
   min-width: 6.25rem;
   height: 2.6875rem;
   padding: 0 1.25rem;
-  background: rgba(191, 191, 191, 0.3);
+  background: rgba(102, 0, 204, 0.3);
   border-radius: 0.1875rem;
   span {
     font: 400 0.625rem/1 GT America Mono Regular;

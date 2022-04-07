@@ -28,7 +28,7 @@ export const BorderDraw = styled.div`
   left: 1.5625rem;
   right: 1.5625rem;
   bottom: 1.5625rem;
-  border: 1px solid rgba(191, 191, 191, 0.3);
+  border: 1px solid rgba(77, 77, 255, 0.3);
   border-top: none;
   border-radius: 1.25rem;
   ::before {
@@ -38,7 +38,7 @@ export const BorderDraw = styled.div`
     position: absolute;
     width: 2.75rem;
     height: 2.75rem;
-    border-top: 1px solid rgba(191, 191, 191, 0.3);
+    border-top: 1px solid rgba(77, 77, 255, 0.3);
   }
   ::after {
     right: 0;
@@ -47,6 +47,6 @@ export const BorderDraw = styled.div`
     position: absolute;
     width: 2.75rem;
     height: 2.75rem;
-    border-top: 1px solid rgba(191, 191, 191, 0.3);
+    border-top: 1px solid rgba(77, 77, 255, 0.3);
   }
 `;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeroWrapper = styled.section`
   opacity: 1;
   visibility: inherit;
-  background: var(--page-grey);
+  background: var(--page-hayami);
 `;
 
 export const HeroContainerOne = styled.div`
