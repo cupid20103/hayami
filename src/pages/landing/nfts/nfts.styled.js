@@ -23,13 +23,13 @@ export const NFTsContent = styled.div`
   align-items: center;
   justify-content: center;
   position: ${(props) => (props.scrollState ? "fixed" : "absolute")};
-  top: 0px;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
   overflow: hidden;
   img {
-    width: 58rem;
+    width: 100%;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
@@ -39,7 +39,7 @@ export const NFTsContent = styled.div`
     overflow: visible;
     img {
       max-height: 100vh;
-      max-width: 80vw;
+      width: 75vw;
     }
   }
 `;

@@ -11,49 +11,13 @@ export const HeroContainerOne = styled.div`
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin-top: -1px;
   position: relative;
   text-align: center;
   color: #fff;
   img {
     width: 75%;
     height: auto;
-  }
-`;
-
-export const HeroContentMobile = styled.div``;
-
-export const HeroMobileTitle = styled.h1`
-  font: 400 3.125rem/1 Roobert;
-  text-decoration: underline;
-  text-transform: uppercase;
-`;
-
-export const HeroContentDesktop = styled.div`
-  width: calc(100% - 15rem);
-`;
-
-export const HeroTitle = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  span {
-    opacity: 0.4;
-    visibility: inherit;
-    font: 400 1.25rem/1 Roobert;
-    text-transform: uppercase;
-  }
-`;
-
-export const HeroTitleContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  svg {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin-top: 1.25rem;
   }
 `;
 
@@ -102,13 +66,13 @@ export const NFTCollection = styled.div`
   overflow: hidden;
   img {
     transform: translate(0px, 0px);
-    width: 58.125rem;
+    width: 100%;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
     @media (min-width: 43.8125rem) {
       max-height: 100vh;
-      max-width: 80vw;
+      width: 75vw;
     }
   }
   @media (min-width: 43.8125rem) {

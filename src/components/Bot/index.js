@@ -15,13 +15,13 @@ const Bot = () => {
     <BotContainer>
       <BotContent>
         <BotItems>
-          <BotImageItem to={"/mekabots"}>
-            <img src={avatar} alt={"Claim your Mekabots"} />
-          </BotImageItem>
           <BotMessageItem to={"/mekabots"}>
             <span>{"Claim your Mekabots now!"}</span>
             <BotMessageSVG />
           </BotMessageItem>
+          <BotImageItem to={"/mekabots"}>
+            <img src={avatar} alt={"Claim your Mekabots"} />
+          </BotImageItem>
         </BotItems>
       </BotContent>
     </BotContainer>

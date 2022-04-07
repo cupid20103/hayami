@@ -31,7 +31,7 @@ export const BotItems = styled.div`
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  right: 4.6875rem;
+  left: 4.6875rem;
   bottom: 3.75rem;
   pointer-events: auto;
 `;
@@ -41,7 +41,7 @@ export const BotImageItem = styled(Link)`
   width: 4.8125rem;
   height: 4.375rem;
   clip-path: circle(40%);
-  margin-left: 1.5625rem;
+  margin-right: 1.5625rem;
   img {
     position: absolute;
     top: 0;
@@ -73,7 +73,7 @@ export const BotMessageItem = styled(Link)`
   svg {
     position: absolute;
     top: 50%;
-    right: -0.5rem;
+    left: -0.5rem;
     opacity: 0.2;
     transform: translateY(-50%);
   }
