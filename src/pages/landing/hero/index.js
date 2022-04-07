@@ -10,7 +10,7 @@ import {
 } from "./hero.styled";
 // @import resources
 import { isScreenWidth } from "../../../utils/getScreenWidth";
-import hero from "../../../assets/images/hero.png";
+import hero from "../../../assets/images/hero.gif";
 import sign from "../../../assets/images/sign.png";
 
 const Hero = () => {
