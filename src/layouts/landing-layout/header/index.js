@@ -10,8 +10,8 @@ import {
   HeaderNavItem,
 } from "./header.styled";
 //@import resources
-import HeaderLogoSVG from "../../../assets/svgs/HeaderLogoSVG";
 import { isScreenWidth } from "../../../utils/getScreenWidth";
+import logo from "../../../assets/images/logo.png";
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -28,7 +28,7 @@ const Header = () => {
       <HeaderContent>
         <HeaderItems>
           <HeaderLogo to={"/"}>
-            <HeaderLogoSVG />
+            <img src={logo} alt={"logo"} />
           </HeaderLogo>
           <HeaderNav>
             <HeaderNavItem to={"/mekabots"}>

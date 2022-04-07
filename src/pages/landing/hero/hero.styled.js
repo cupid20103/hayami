@@ -11,13 +11,12 @@ export const HeroContainerOne = styled.div`
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin-top: -1px;
   position: relative;
-  z-index: 2;
   text-align: center;
   color: #fff;
-  @media (min-width: 43.8125rem) {
-    z-index: 0;
+  img {
+    width: 75%;
+    height: auto;
   }
 `;
 

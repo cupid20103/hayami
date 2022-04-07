@@ -23,7 +23,7 @@ export const BotContent = styled.div`
   right: 0;
   width: 100%;
   height: 100%;
-  color: rgb(255, 128, 0);
+  color: rgba(255, 255, 255, 0.7);
 `;
 
 export const BotItems = styled.div`

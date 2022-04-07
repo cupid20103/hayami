@@ -16,7 +16,7 @@ export const HeaderContent = styled.div`
   left: 1.5625rem;
   right: 1.5625rem;
   padding-top: 1.5625rem;
-  color: rgba(255, 153, 51, 0.9);
+  color: rgb(210, 77, 255);
   overflow: hidden;
   transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   border-radius: 0.625rem;
@@ -48,9 +48,9 @@ export const HeaderLogo = styled(Link)`
   position: relative;
   opacity: 1;
   visibility: inherit;
-  svg {
-    fill: currentColor;
-    transition: fill 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  img {
+    width: 75px;
+    height: auto;
   }
 `;
 
