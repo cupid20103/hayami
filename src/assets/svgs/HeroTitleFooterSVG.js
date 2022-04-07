@@ -6,7 +6,6 @@ const HeroTitleFooterSVG = () => {
       viewBox="0 0 1201 12"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="section__logo__line__line"
     >
       <path
         d="M0 0.519806H1201V12H0V0.519806Z"
