@@ -16,6 +16,7 @@ export const HeroContainerOne = styled.div`
   text-align: center;
   color: #fff;
   img {
+    z-index: ${(props) => (props.isMobile ? 2 : 0)};
     width: 75%;
     height: auto;
   }
@@ -66,7 +67,7 @@ export const NFTCollection = styled.div`
   overflow: hidden;
   img {
     transform: translate(0px, 0px);
-    width: 100%;
+    width: 45rem;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;

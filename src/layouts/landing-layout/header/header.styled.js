@@ -11,6 +11,8 @@ export const HeaderContainer = styled.header`
 `;
 
 export const HeaderContent = styled.div`
+  max-width: 1440px;
+  margin: auto;
   position: absolute;
   top: 0;
   left: 1.5625rem;

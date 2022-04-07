@@ -15,6 +15,8 @@ export const FooterDiscord = styled.div`
   width: 100%;
   height: 22.8125rem;
   border: 1px solid #e2e2e2;
+  max-width: 1440px;
+  margin: auto;
 `;
 
 export const FooterCanvas = styled.div`
@@ -150,6 +152,8 @@ export const FooterNav = styled.div`
   grid-gap: 1.25rem;
   padding-top: 6.875rem;
   padding-bottom: 3.125rem;
+  max-width: 1440px;
+  margin: auto;
   @media (min-width: 43.8125rem) {
     grid-template-columns: repeat(12, [start] 1fr);
     padding-top: 5.3125rem;
@@ -169,7 +173,7 @@ export const FooterCol = styled.div`
       width: 16.25rem;
       height: auto;
       opacity: 0.05;
-      margin-bottom: 1.5625rem;
+      margin-top: 1.5625rem;
     }
   }
   @media (max-width: 43.75rem) {
@@ -230,11 +234,16 @@ export const FooterWebsite = styled.div`
 `;
 
 export const FooterMeta = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, [start] 1fr);
-  grid-gap: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
   @media (min-width: 43.8125rem) {
-    grid-template-columns: repeat(12, [start] 1fr);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
   }
 `;
 
@@ -242,6 +251,10 @@ export const FooterMetaText = styled.p`
   font: 400 0.625rem/1.3 GT America Mono Regular;
   letter-spacing: -0.02em;
   opacity: 0.4;
+  margin-right: 0;
+  @media (min-width: 43.8125rem) {
+    margin-right: 1.1875rem;
+  }
 `;
 
 export const FooterMetaAction = styled.a`

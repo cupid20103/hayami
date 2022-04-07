@@ -72,9 +72,6 @@ const Footer = () => {
       </FooterNav>
       <FooterMeta>
         <FooterCol>
-          <FooterLogoSVG />
-        </FooterCol>
-        <FooterCol>
           <FooterMetaText>
             {"MekaVerse is a registered trademark of MekaLabs."}
             <br />
@@ -83,6 +80,9 @@ const Footer = () => {
               {"Antinomy Studio"}
             </FooterMetaAction>
           </FooterMetaText>
+        </FooterCol>
+        <FooterCol>
+          <FooterLogoSVG />
         </FooterCol>
       </FooterMeta>
     </FooterContainer>

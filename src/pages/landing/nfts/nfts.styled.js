@@ -29,7 +29,7 @@ export const NFTsContent = styled.div`
   height: 100vh;
   overflow: hidden;
   img {
-    width: 100%;
+    width: 45rem;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
