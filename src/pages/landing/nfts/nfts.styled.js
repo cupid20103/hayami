@@ -23,18 +23,19 @@ export const NFTsContent = styled.div`
   align-items: center;
   justify-content: center;
   position: ${(props) => (props.scrollState ? "fixed" : "absolute")};
-  top: 0;
+  top: 0px;
   left: 0;
   width: 100%;
   height: 100vh;
   overflow: hidden;
   img {
-    width: 58.125rem;
+    width: 55rem;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
   }
   @media (min-width: 43.8125rem) {
+    top: -25px;
     overflow: visible;
     img {
       max-height: 100vh;
