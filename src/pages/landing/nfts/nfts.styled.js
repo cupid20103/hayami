@@ -20,7 +20,6 @@ export const NFTsContainer = styled.section`
 
 export const NFTsContent = styled.div`
   display: flex;
-  align-items: center;
   justify-content: center;
   position: ${(props) => (props.scrollState ? "fixed" : "absolute")};
   top: 0;
@@ -33,13 +32,17 @@ export const NFTsContent = styled.div`
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
-  }
-  @media (min-width: 43.8125rem) {
-    top: -25px;
-    overflow: visible;
-    img {
+    @media (max-width: 425px) {
+      margin-left: -20px !important;
+    }
+    @media (min-width: 43.8125rem) {
       max-height: 100vh;
       width: 75vw;
     }
+  }
+
+  @media (min-width: 43.8125rem) {
+    top: -25px;
+    overflow: visible;
   }
 `;

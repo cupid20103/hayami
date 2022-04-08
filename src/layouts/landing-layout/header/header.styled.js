@@ -134,7 +134,7 @@ export const HeaderMobileHeaderClose = styled.div`
   font-size: 24px;
   width: 100%;
   text-align: right;
-  padding: 0px 25px;
+  padding: 0px 20px;
   font-weight: 700;
   color: #fff;
   position: relative;

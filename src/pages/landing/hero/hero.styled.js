@@ -58,11 +58,11 @@ export const HeroText = styled.div`
 export const NFTCollection = styled.div`
   position: fixed;
   top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
   overflow: hidden;
   img {
@@ -71,6 +71,9 @@ export const NFTCollection = styled.div`
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
+    @media (max-width: 425px) {
+      margin-left: -20px !important;
+    }
     @media (min-width: 43.8125rem) {
       max-height: 100vh;
       width: 75vw;
