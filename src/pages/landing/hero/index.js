@@ -1,13 +1,6 @@
 import React, { useState, useEffect } from "react";
 // @import styles
-import {
-  HeroContainerOne,
-  HeroContainerTwo,
-  HeroContentTwo,
-  HeroText,
-  HeroWrapper,
-  NFTCollection,
-} from "./hero.styled";
+import { HeroContainer, HeroWrapper, NFTCollection } from "./hero.styled";
 // @import resources
 import { isScreenWidth } from "../../../utils/getScreenWidth";
 import hero from "../../../assets/images/hero.gif";
@@ -25,22 +18,9 @@ const Hero = () => {
 
   return (
     <HeroWrapper>
-      <HeroContainerOne isMobile={isMobile}>
+      <HeroContainer isMobile={isMobile}>
         <img src={sign} alt={"sign"} />
-      </HeroContainerOne>
-      <HeroContainerTwo>
-        <HeroContentTwo>
-          <HeroText>
-            <span>{"Welcome"}</span>
-          </HeroText>
-          <HeroText>
-            <span>{"Mekaverse"}</span>
-          </HeroText>
-          <HeroText>
-            <span>{"Universe"}</span>
-          </HeroText>
-        </HeroContentTwo>
-      </HeroContainerTwo>
+      </HeroContainer>
       <NFTCollection>
         <img src={hero} alt={"hero"} />
       </NFTCollection>
