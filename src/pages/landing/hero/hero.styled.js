@@ -19,13 +19,7 @@ export const HeroContainer = styled.div`
     z-index: ${(props) => (props.isMobile ? 2 : 0)};
     width: 75%;
     height: auto;
-    margin: 250px auto 700px auto;
-    @media (min-width: 43.8125rem) {
-      margin: 150px auto 25rem auto;
-    }
-    @media (min-width: 64.0625rem) {
-      margin: 200px auto 50rem auto;
-    }
+    margin: 150px auto 50rem auto;
   }
 `;
 
