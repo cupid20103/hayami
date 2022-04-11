@@ -8,7 +8,7 @@ const NFTs = () => {
   const [scrollState, setScrollState] = useState(true);
 
   const handleScroll = () => {
-    if (window.scrollY >= 950) {
+    if (window.scrollY >= 1000) {
       setScrollState(false);
     } else {
       setScrollState(true);

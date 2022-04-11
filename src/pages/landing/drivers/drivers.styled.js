@@ -71,7 +71,7 @@ export const DriverPart = styled.div`
   grid-column: start/span 4;
   text-align: center;
   @media (min-width: 43.8125rem) {
-    grid-column: 4 / span 5;
+    grid-column: 2 / span 5;
     text-align: left;
   }
 `;

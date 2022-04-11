@@ -70,6 +70,7 @@ export const OptionsGrid = styled.div`
 export const OptionsPart = styled.div`
   grid-column: start/span 4;
   text-align: center;
+  padding-top: 75px;
   @media (min-width: 43.8125rem) {
     grid-column: 7 / span 5;
     text-align: left;
@@ -85,7 +86,7 @@ export const OptionsTitle = styled.h2`
     opacity: 0.4;
   }
   @media (min-width: 43.8125rem) {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   @media (min-width: 64.0625rem) {
     font-size: 4.5rem;

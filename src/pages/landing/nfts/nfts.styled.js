@@ -33,11 +33,13 @@ export const NFTsContent = styled.div`
     -o-object-fit: cover;
     object-fit: cover;
     @media (max-width: 425px) {
-      margin-left: -20px !important;
+      /* margin-left: -20px !important; */
+      margin-left: -75px !important;
     }
     @media (min-width: 43.8125rem) {
       max-height: 100vh;
       width: 75vw;
+      margin-left: -50px !important;
     }
   }
 

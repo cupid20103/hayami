@@ -70,6 +70,7 @@ export const OpenSeaGrid = styled.div`
 export const OpenSeaPart = styled.div`
   grid-column: start/span 4;
   text-align: center;
+  padding-top: 75px;
   @media (min-width: 43.8125rem) {
     grid-column: 7 / span 5;
     text-align: left;

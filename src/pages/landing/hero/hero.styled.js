@@ -25,7 +25,7 @@ export const HeroContainer = styled.div`
 
 export const NFTCollection = styled.div`
   position: fixed;
-  top: 0;
+  /* top: 0; */
   bottom: 0;
   left: 0;
   width: 100%;
@@ -35,16 +35,19 @@ export const NFTCollection = styled.div`
   overflow: hidden;
   img {
     transform: translate(0px, 0px);
-    width: 45rem;
+    /* width: 45rem; */
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
     @media (max-width: 425px) {
-      margin-left: -20px !important;
+      /* margin-left: -20px !important; */
+      /* margin-left: 20px !important; */
     }
     @media (min-width: 43.8125rem) {
       max-height: 100vh;
-      width: 75vw;
+      /* width: 75vw; */
+      margin-left: 20px !important;
+      width: 60vw;
     }
   }
   @media (min-width: 43.8125rem) {
