@@ -79,7 +79,7 @@ export const HeaderNavItem = styled(Link)`
 export const NavMobile = styled.div`
   display: ${(props) => (props.isMobile ? "flex" : "none")};
   position: fixed;
-  left: 85vw;
+  left: 80vw;
   color: #fff;
   font-size: 28px;
   font-weight: 700;
@@ -95,6 +95,9 @@ export const NavMobile = styled.div`
       color: rgb(85, 0, 255);
       transition: 0.3s ease;
     }
+  }
+  @media (min-width: 43.8125rem) {
+    left: 85vw;
   }
 `;
 

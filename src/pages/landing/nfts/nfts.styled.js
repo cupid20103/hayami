@@ -29,11 +29,11 @@ export const NFTsContent = styled.div`
   img {
     width: 50rem;
     height: auto;
-    margin-left: 50px;
+    margin-left: 5px;
     -o-object-fit: cover;
     object-fit: cover;
     @media (max-width: 425px) {
-      margin-left: 3px !important;
+      margin-left: 10px !important;
     }
     @media (min-width: 43.8125rem) {
       margin-left: 50px;

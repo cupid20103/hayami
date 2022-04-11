@@ -14,10 +14,10 @@ export const IntroContainer = styled.section`
 export const IntroContent = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0 3.125rem;
+  padding: 100px 3.125rem;
   @media (min-width: 43.8125rem) {
     flex-direction: row;
-    padding: 0 5.0625rem 31.25rem;
+    padding: 200px 5.0625rem 31.25rem;
   }
 `;
 
