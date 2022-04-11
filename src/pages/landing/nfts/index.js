@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // @import styles
 import { NFTsContainer, NFTsContent } from "./nfts.styled";
 // @import resources
-import bot from "../../../assets/images/bot.gif";
+import bot from "../../../assets/images/bot.png";
 
 const NFTs = () => {
   const [scrollState, setScrollState] = useState(true);

@@ -22,29 +22,28 @@ export const NFTsContent = styled.div`
   display: flex;
   justify-content: center;
   position: ${(props) => (props.scrollState ? "fixed" : "absolute")};
-  top: 0;
+  top: 15px;
   left: 0;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
   img {
-    width: 45rem;
+    width: 50rem;
     height: auto;
+    margin-left: 50px;
     -o-object-fit: cover;
     object-fit: cover;
     @media (max-width: 425px) {
-      /* margin-left: -20px !important; */
-      margin-left: -75px !important;
+      margin-left: 3px !important;
     }
     @media (min-width: 43.8125rem) {
+      margin-left: 50px;
       max-height: 100vh;
       width: 75vw;
-      margin-left: -50px !important;
     }
   }
 
   @media (min-width: 43.8125rem) {
-    top: -25px;
+    top: 30px;
     overflow: visible;
   }
 `;

@@ -79,7 +79,7 @@ export const HeaderNavItem = styled(Link)`
 export const NavMobile = styled.div`
   display: ${(props) => (props.isMobile ? "flex" : "none")};
   position: fixed;
-  right: 25px;
+  left: 85vw;
   color: #fff;
   font-size: 28px;
   font-weight: 700;
