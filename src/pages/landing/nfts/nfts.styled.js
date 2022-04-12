@@ -27,23 +27,24 @@ export const NFTsContent = styled.div`
   width: 100%;
   height: 100vh;
   img {
-    width: 50rem;
     height: auto;
-    margin-left: 5px;
     -o-object-fit: cover;
     object-fit: cover;
     @media (max-width: 425px) {
-      margin-left: 10px !important;
+      margin-left: -25px !important;
     }
     @media (min-width: 43.8125rem) {
-      margin-left: 50px;
       max-height: 100vh;
       width: 75vw;
     }
   }
 
+  @media (max-width: 425px) {
+    top: -15px;
+    overflow: visible;
+  }
   @media (min-width: 43.8125rem) {
-    top: 30px;
+    top: -5px;
     overflow: visible;
   }
 `;

@@ -38,11 +38,12 @@ export const NFTCollection = styled.div`
     -o-object-fit: cover;
     object-fit: cover;
     @media (max-width: 425px) {
-      margin-left: -25px !important;
+      margin-left: -20px !important;
     }
     @media (min-width: 43.8125rem) {
+      margin-left: 5px !important;
       max-height: 100vh;
-      width: 70vw;
+      width: 75vw;
     }
   }
   @media (min-width: 43.8125rem) {

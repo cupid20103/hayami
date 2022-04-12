@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 // @import styles
 import { NFTsContainer, NFTsContent } from "./nfts.styled";
 // @import resources
-import bot from "../../../assets/images/bot.png";
+import bot from "../../../assets/images/bot.gif";
 
 const NFTs = () => {
   const [scrollState, setScrollState] = useState(true);
 
   const handleScroll = () => {
-    if (window.scrollY >= 1000) {
+    if (window.scrollY >= 950) {
       setScrollState(false);
     } else {
       setScrollState(true);
