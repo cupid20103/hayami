@@ -5,10 +5,10 @@ import { LandingLayout } from "../../layouts";
 import Hero from "./hero";
 import NFTs from "./nfts";
 import Intro from "./intro";
-import OpenSea from "./opensea";
-import Drivers from "./drivers";
-import Options from "./options";
-import Footer from "./footer";
+// import OpenSea from "./opensea";
+// import Drivers from "./drivers";
+// import Options from "./options";
+// import Footer from "./footer";
 // @import styles
 const SectionGroupContainer = styled.div`
   opacity: 1;
