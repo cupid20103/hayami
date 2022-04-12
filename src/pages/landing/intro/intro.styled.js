@@ -13,53 +13,41 @@ export const IntroContainer = styled.section`
 
 export const IntroContent = styled.div`
   display: flex;
-  flex-direction: column;
-  padding: 100px 3.125rem;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 3rem;
+  @media (max-width: 450px) {
+    padding: 100px 1rem;
+  }
   @media (min-width: 43.8125rem) {
-    flex-direction: row;
-    padding: 200px 5.0625rem 31.25rem;
+    padding: 200px 5.0625rem 200px;
   }
 `;
 
 export const IntroContentLeft = styled.div`
-  margin-bottom: 1.875rem;
-  span {
-    font: 400 0.75rem/1 GT America Mono Regular;
-    color: #fff;
-    opacity: 0.4;
+  padding-right: 2rem;
+  img {
+    width: 3.5rem;
+    height: auto;
   }
   @media (min-width: 43.8125rem) {
-    margin-bottom: 0;
     padding-right: 10.0625rem;
   }
 `;
 
 export const IntroContentRight = styled.div``;
 
-export const IntroContentTop = styled.h2`
-  font: 400 2rem/1.1 Roobert;
+export const IntroContentText = styled.h2`
+  font: 400 1.5rem/1.1 Roobert;
   color: #fff;
   max-width: 40.625rem;
-  margin-bottom: 5.3125rem;
-  @media (min-width: 43.8125rem) {
-    font-size: 3rem;
-  }
-  @media (min-width: 64.0625rem) {
-    font-size: 4rem;
-  }
-`;
-
-export const IntroContentBottom = styled.div`
-  font: 400 2.125rem/1.1 Roobert;
-  color: #fff;
-  max-width: 40.625rem;
-  opacity: 0.4;
-  margin-bottom: 7.5rem;
-  @media (min-width: 64.0625rem) {
-    font-size: 4rem;
+  @media (max-width: 425px) {
+    font-size: 1rem;
   }
   @media (min-width: 43.8125rem) {
-    font-size: 3rem;
-    margin-bottom: 5.3125rem;
+    font-size: 1.5rem;
+  }
+  @media (min-width: 64.0625rem) {
+    font-size: 2rem;
   }
 `;

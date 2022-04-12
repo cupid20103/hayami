@@ -2,28 +2,37 @@
 import {
   IntroContainer,
   IntroContent,
-  IntroContentBottom,
   IntroContentLeft,
   IntroContentRight,
-  IntroContentTop,
+  IntroContentText,
 } from "./intro.styled";
+
+// @import styles
+import realm from "../../../assets/images/realm.png";
 
 const Intro = () => {
   return (
     <IntroContainer>
       <IntroContent>
         <IntroContentLeft>
-          <span>{"What’s Mekaverse..."}</span>
+          <img src={realm} alt="realm" />
         </IntroContentLeft>
         <IntroContentRight>
-          <IntroContentTop>
+          <IntroContentText>
             {
-              "In the distant future, drivers fight in a world divided into 4 Factions. Originals Meka, Mirage, F9, and Gadians are the Titans who rule this planet."
+              "Aliqua enim veniam labore consectetur. Officia mollit aliquip minim anim deserunt velit deserunt. Adipisicing incididunt dolore deserunt est consequat."
             }
-          </IntroContentTop>
-          <IntroContentBottom>
-            {"Which Faction are you going to join?"}
-          </IntroContentBottom>
+            <br />
+            <br />
+            {
+              "In sit dolore ut fugiat cupidatat quis nisi labore incididunt id pariatur velit proident. Et sunt amet eu elit in. Adipisicing mollit elit duis voluptate ipsum cillum. Lorem mollit nulla elit elit excepteur."
+            }
+            <br />
+            <br />
+            {
+              "Proident do minim aliquip mollit id commodo deserunt quis est ut. Adipisicing sunt eu officia cillum anim minim nulla dolor voluptate commodo adipisicing. Ea duis aute incididunt nostrud Lorem ad aute ex incididunt aute magna dolor cillum."
+            }
+          </IntroContentText>
         </IntroContentRight>
       </IntroContent>
     </IntroContainer>
