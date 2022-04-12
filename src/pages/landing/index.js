@@ -46,10 +46,10 @@ const Landing = () => {
             <Hero />
             <NFTs />
             <Intro />
-            <OpenSea />
-            <Drivers />
-            <Options />
-            <Footer />
+            // <OpenSea />
+            // <Drivers />
+            // <Options />
+            // <Footer />
           </SectionContent>
         </SectionGroup>
       </SectionGroupContainer>
