@@ -16,7 +16,7 @@ const Bot = () => {
       <BotContent>
         <BotItems>
           <BotMessageItem to={"/mekabots"}>
-            <span>{"Claim your Mekabots now!"}</span>
+            <span>{"Join our Discord now!"}</span>
             <BotMessageSVG />
           </BotMessageItem>
           <BotImageItem to={"/mekabots"}>
