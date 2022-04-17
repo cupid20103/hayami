@@ -4,8 +4,8 @@ import { LandingLayout } from "../../layouts";
 // @import pages
 import Hero from "./hero";
 import NFTs from "./nfts";
-import Intro from "./intro";
-// import OpenSea from "./opensea";
+import Realm from "./realm";
+import Discord from "./discord";
 // import Drivers from "./drivers";
 // import Options from "./options";
 // import Footer from "./footer";
@@ -45,7 +45,8 @@ const Landing = () => {
           <SectionContent>
             <Hero />
             <NFTs />
-            <Intro />
+            <Realm />
+            <Discord />
             {/* <OpenSea />
             <Drivers />
             <Options />

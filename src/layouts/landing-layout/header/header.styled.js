@@ -64,7 +64,7 @@ export const HeaderNav = styled.nav`
   opacity: 1;
   visibility: inherit;
   border-radius: 5px;
-  background-color: rgba(102, 0, 204, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
 `;
 
 export const HeaderNavItem = styled(Link)`

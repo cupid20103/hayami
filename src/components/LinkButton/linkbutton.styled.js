@@ -7,7 +7,7 @@ export const LinkButtonContainer = styled.a`
   position: relative;
   height: 2.875rem;
   padding: 0 1.25rem;
-  margin-top: ${(props) => (props.unique ? "1.5625rem;" : 0)};
+  margin-top: 1.5625rem;
   margin-bottom: 20%;
   border-radius: 0.125rem;
   overflow: hidden;

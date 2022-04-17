@@ -25,14 +25,11 @@ export const NFTsContent = styled.div`
   top: 15px;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   img {
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
-    @media (max-width: 425px) {
-      margin-left: -25px !important;
-    }
     @media (min-width: 43.8125rem) {
       max-height: 100vh;
       width: 75vw;

@@ -38,7 +38,7 @@ export const NFTCollection = styled.div`
     -o-object-fit: cover;
     object-fit: cover;
     @media (max-width: 425px) {
-      margin-left: -20px !important;
+      margin-left: -10px !important;
     }
     @media (min-width: 43.8125rem) {
       margin-left: 5px !important;
