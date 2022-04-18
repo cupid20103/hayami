@@ -2,6 +2,7 @@
 import LinkButton from "../../../components/LinkButton";
 // @import styles
 import {
+  DiscordActions,
   DiscordBack,
   DiscordContainer,
   DiscordContent,
@@ -35,9 +36,11 @@ const Discord = () => {
             }
             <br />
             <br />
-            <LinkButton targetProps={"/"} widthProps={"200px"}>
-              <span>{"JOIN OUR DISCORD"}</span>
-            </LinkButton>
+            <DiscordActions>
+              <LinkButton targetProps={"/"} widthProps={"200px"}>
+                <span>{"JOIN OUR DISCORD"}</span>
+              </LinkButton>
+            </DiscordActions>
           </DiscordContentText>
         </DiscordRight>
       </DiscordContent>

@@ -30,8 +30,7 @@ export const DiscordContent = styled.div`
   margin: 100px auto;
   z-index: 10;
   @media (max-width: 425px) {
-    width: 100vw;
-    margin: 50px auto;
+    flex-direction: column;
   }
   @media (max-width: 700px) {
     width: 85vw;
@@ -47,8 +46,28 @@ export const DiscordLeft = styled.div`
       width: 3rem;
       height: auto;
     }
+    @media (max-width: 425px) {
+      width: auto;
+      height: 200px;
+    }
   }
   @media (max-width: 700px) {
+    margin: auto;
+  }
+  @media (max-width: 425px) {
+    transform: rotate(90deg);
+  }
+`;
+
+export const DiscordRight = styled.div`
+  width: 32vw;
+  margin-left: 50px;
+  @media (max-width: 700px) {
+    width: 60vw;
+    margin-left: 10px;
+  }
+  @media (max-width: 425px) {
+    width: 80vw;
     margin: auto;
   }
 `;
@@ -65,11 +84,12 @@ export const DiscordContentText = styled.h2`
   }
 `;
 
-export const DiscordRight = styled.div`
-  width: 32vw;
-  margin-left: 50px;
-  @media (max-width: 700px) {
-    width: 60vw;
-    margin-left: 10px;
+export const DiscordActions = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  @media (max-width: 425px) {
+    justify-content: center;
   }
 `;

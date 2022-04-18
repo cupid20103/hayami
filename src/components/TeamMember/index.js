@@ -3,7 +3,7 @@ import {
   TeamMemberContainer,
   TeamMemberText,
   TeamMemberTitle,
-} from "./taemmember.styled";
+} from "./teammember.styled";
 
 const TeamMember = (props) => {
   return (

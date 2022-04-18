@@ -16,7 +16,7 @@ export const RoadmapContent = styled.div`
   align-items: center;
   z-index: 10;
   @media (max-width: 425px) {
-    width: 100vw;
+    flex-direction: column;
   }
   @media (max-width: 700px) {
     width: 85vw;
@@ -32,9 +32,16 @@ export const RoadmapLeft = styled.div`
       width: 3rem;
       height: auto;
     }
+    @media (max-width: 425px) {
+      width: auto;
+      height: 200px;
+    }
   }
   @media (max-width: 700px) {
     margin: auto;
+  }
+  @media (max-width: 425px) {
+    transform: rotate(90deg);
   }
 `;
 
@@ -44,6 +51,10 @@ export const RoadmapRight = styled.div`
   @media (max-width: 700px) {
     width: 60vw;
     margin-left: 10px;
+  }
+  @media (max-width: 425px) {
+    width: 80vw;
+    margin: auto;
   }
 `;
 
@@ -94,19 +105,26 @@ export const RoadmapActions = styled.div`
 export const RoadmapBack = styled.div`
   position: absolute;
   right: 0;
-  top: 0;
   height: 100%;
+  -webkit-clip-path: polygon(60% 0%, 100% 0, 100% 100%, 40% 100%);
   clip-path: polygon(60% 0%, 100% 0, 100% 100%, 40% 100%);
   img {
     width: auto;
     height: 100%;
   }
   @media (max-width: 700px) {
-    right: -60px;
-    clip-path: polygon(65% 0%, 100% 0, 100% 100%, 45% 100%);
+    right: -150px;
   }
   @media (max-width: 425px) {
-    right: -120px;
-    clip-path: polygon(70% 0%, 100% 0, 100% 100%, 50% 100%);
+    img {
+      width: 100%;
+      height: auto;
+    }
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
   }
 `;
