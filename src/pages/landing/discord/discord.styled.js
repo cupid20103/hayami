@@ -9,6 +9,9 @@ export const DiscordContainer = styled.section`
   min-height: 100vh;
   background-color: #000;
   overflow: hidden;
+  @media (max-width: 425px) {
+    justify-content: flex-start;
+  }
 `;
 
 export const DiscordBack = styled.div`
@@ -20,6 +23,16 @@ export const DiscordBack = styled.div`
     @media (max-width: 1024px) {
       width: 500px;
     }
+  }
+  @media (max-width: 425px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 35%;
   }
 `;
 
@@ -48,13 +61,17 @@ export const DiscordLeft = styled.div`
     }
     @media (max-width: 425px) {
       width: auto;
-      height: 200px;
+      height: 300px;
     }
   }
   @media (max-width: 700px) {
     margin: auto;
   }
   @media (max-width: 425px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
     transform: rotate(90deg);
   }
 `;

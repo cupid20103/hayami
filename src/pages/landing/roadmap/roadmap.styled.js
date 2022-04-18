@@ -8,6 +8,9 @@ export const RoadmapContainer = styled.section`
   min-height: 100vh;
   background-color: #000;
   overflow: hidden;
+  @media (max-width: 425px) {
+    align-items: flex-start;
+  }
 `;
 
 export const RoadmapContent = styled.div`
@@ -34,7 +37,7 @@ export const RoadmapLeft = styled.div`
     }
     @media (max-width: 425px) {
       width: auto;
-      height: 200px;
+      height: 300px;
     }
   }
   @media (max-width: 700px) {
@@ -44,7 +47,7 @@ export const RoadmapLeft = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 150px;
     transform: rotate(90deg);
   }
 `;

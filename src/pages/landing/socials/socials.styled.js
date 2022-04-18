@@ -30,7 +30,7 @@ export const SocialsLeft = styled.div`
     }
     @media (max-width: 425px) {
       width: auto;
-      height: 200px;
+      height: 250px;
     }
   }
   @media (max-width: 425px) {

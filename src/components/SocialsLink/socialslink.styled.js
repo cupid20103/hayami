@@ -8,14 +8,14 @@ export const SocialsLinkContainer = styled.a`
   margin: auto 30px;
   cursor: pointer;
   img {
-    width: 8rem;
-    height: auto;
+    width: auto;
+    height: 8rem;
   }
   @media (max-width: 700px) {
     margin: 20px 30px;
     img {
-      width: 5rem;
-      height: auto;
+      width: auto;
+      height: 5rem;
     }
   }
 `;

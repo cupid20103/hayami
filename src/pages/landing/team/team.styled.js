@@ -30,7 +30,7 @@ export const TeamLeft = styled.div`
     }
     @media (max-width: 425px) {
       width: auto;
-      height: 120px;
+      height: 180px;
     }
   }
   @media (max-width: 425px) {

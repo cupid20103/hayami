@@ -38,7 +38,7 @@ export const RealmLeft = styled.div`
     }
     @media (max-width: 425px) {
       width: auto;
-      height: 200px;
+      height: 300px;
     }
   }
   @media (max-width: 700px) {
@@ -48,7 +48,7 @@ export const RealmLeft = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 200px;
     transform: rotate(90deg);
   }
 `;
