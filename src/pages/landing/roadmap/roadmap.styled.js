@@ -41,6 +41,10 @@ export const RoadmapLeft = styled.div`
     margin: auto;
   }
   @media (max-width: 425px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
     transform: rotate(90deg);
   }
 `;
@@ -123,7 +127,7 @@ export const RoadmapBack = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    height: 50%;
+    height: 35%;
     -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
     clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
   }
