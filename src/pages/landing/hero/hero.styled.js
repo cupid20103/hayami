@@ -18,7 +18,6 @@ export const HeroContainer = styled.div`
     z-index: ${(props) => (props.isMobile ? 2 : 0)};
     width: 75%;
     height: auto;
-    margin: 150px auto 50rem auto;
   }
 `;
 
@@ -43,7 +42,7 @@ export const NFTCollection = styled.div`
     @media (min-width: 43.8125rem) {
       margin-left: 5px !important;
       max-height: 100vh;
-      width: 75vw;
+      width: 65vw;
     }
   }
   @media (min-width: 43.8125rem) {

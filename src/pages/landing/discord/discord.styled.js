@@ -14,7 +14,7 @@ export const DiscordBack = styled.div`
   position: absolute;
   left: 0;
   img {
-    width: 55vw;
+    width: 50vw;
     height: auto;
     @media (max-width: 1024px) {
       width: 500px;
@@ -37,25 +37,23 @@ export const DiscordContent = styled.div`
 `;
 
 export const DiscordLeft = styled.div`
-  width: 50vw;
-  margin-left: 15vw;
+  width: 30vw;
+  margin-left: 30vw;
   @media (max-width: 700px) {
     margin: auto;
+    width: 50vw;
   }
 `;
 
 export const DiscordContentText = styled.h2`
-  font: 400 1.2rem/1.1 Roobert;
+  font: 400 1rem/1.1 Roobert;
   flex: 1;
   color: #fff;
-  @media (max-width: 425px) {
-    font-size: 1rem;
-  }
   @media (min-width: 43.8125rem) {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   @media (min-width: 64.0625rem) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;
 

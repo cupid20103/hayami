@@ -42,7 +42,11 @@ const Header = () => {
               <HeaderMobileHeaderClose onClick={() => setIsOpened(!isOpened)}>
                 <FaTimes />
               </HeaderMobileHeaderClose>
-              <HeaderMobileHeaderContent to={"/"} smooth={true} duration={1500}>
+              <HeaderMobileHeaderContent
+                to={"hero"}
+                smooth={true}
+                duration={1500}
+              >
                 <img src={logo} alt={"logo"} />
               </HeaderMobileHeaderContent>
             </HeaderMobileHeader>
@@ -62,7 +66,7 @@ const Header = () => {
           </HeaderMobileContent>
         </HeaderMobile>
         <HeaderItems>
-          <HeaderLogo to={"/"} smooth={true} duration={1500}>
+          <HeaderLogo to={"hero"} smooth={true} duration={1500}>
             <img src={logo} alt={"logo"} />
           </HeaderLogo>
           <HeaderNav isMobile={isMobile}>

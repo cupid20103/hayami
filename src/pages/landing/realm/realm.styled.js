@@ -8,7 +8,6 @@ export const RealmContainer = styled.section`
   min-height: 100vh;
   background-color: #000;
   overflow: hidden;
-  margin-top: -1px;
   @media (max-width: 700px) {
     min-height: 80vh;
   }
@@ -28,7 +27,7 @@ export const RealmContent = styled.div`
 `;
 
 export const RealmLeft = styled.div`
-  margin-left: -15vw;
+  margin-left: -30vw;
   width: 3.5rem;
   @media (max-width: 700px) {
     margin: auto;
@@ -43,21 +42,21 @@ export const RealmLeft = styled.div`
 
 export const RealmRight = styled.div`
   margin-left: 50px;
-  width: 50vw;
+  width: 30vw;
+  @media (max-width: 700px) {
+    width: 50vw;
+  }
 `;
 
 export const RealmContentText = styled.h2`
-  font: 400 1.2rem/1.1 Roobert;
+  font: 400 1rem/1.1 Roobert;
   flex: 1;
   color: #fff;
-  @media (max-width: 425px) {
-    font-size: 1rem;
-  }
   @media (min-width: 43.8125rem) {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   @media (min-width: 64.0625rem) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;
 
@@ -66,12 +65,9 @@ export const RealmBack = styled.div`
   right: 0;
   top: 0;
   height: 100%;
+  clip-path: polygon(60% 0%, 100% 0, 100% 100%, 40% 100%);
   img {
     width: auto;
     height: 100%;
   }
-  @media (max-width: 700px) {
-    min-height: 80vh;
-  }
-  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 30% 100%);
 `;

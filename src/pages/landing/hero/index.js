@@ -17,7 +17,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <HeroWrapper>
+    <HeroWrapper id={"hero"}>
       <HeroContainer isMobile={isMobile}>
         <img src={sign} alt={"sign"} />
       </HeroContainer>

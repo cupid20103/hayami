@@ -3,12 +3,8 @@ import styled from "styled-components";
 import { LandingLayout } from "../../layouts";
 // @import pages
 import Hero from "./hero";
-import NFTs from "./nfts";
 import Realm from "./realm";
 import Discord from "./discord";
-// import Drivers from "./drivers";
-// import Options from "./options";
-// import Footer from "./footer";
 // @import styles
 const SectionGroupContainer = styled.div`
   opacity: 1;
@@ -44,13 +40,8 @@ const Landing = () => {
         <SectionGroup>
           <SectionContent>
             <Hero />
-            <NFTs />
             <Realm />
             <Discord />
-            {/* <OpenSea />
-            <Drivers />
-            <Options />
-            <Footer /> */}
           </SectionContent>
         </SectionGroup>
       </SectionGroupContainer>

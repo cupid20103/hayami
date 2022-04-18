@@ -13,10 +13,10 @@ import realm from "../../../assets/images/realm.png";
 
 const Realm = () => {
   return (
-    <RealmContainer id="realm">
+    <RealmContainer id={"realm"}>
       <RealmContent>
         <RealmLeft>
-          <img src={realm} alt="realm" />
+          <img src={realm} alt={"realm"} />
         </RealmLeft>
         <RealmRight>
           <RealmContentText>
@@ -32,7 +32,7 @@ const Realm = () => {
         </RealmRight>
       </RealmContent>
       <RealmBack>
-        <img src={back_realm} alt="back_realm" />
+        <img src={back_realm} alt={"back_realm"} />
       </RealmBack>
     </RealmContainer>
   );
