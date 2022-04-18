@@ -35,7 +35,7 @@ const Discord = () => {
             }
             <br />
             <br />
-            <LinkButton href={"/"}>
+            <LinkButton targetProps={"/"} widthProps={"200px"}>
               <span>{"JOIN OUR DISCORD"}</span>
             </LinkButton>
           </DiscordContentText>

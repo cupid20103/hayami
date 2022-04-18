@@ -39,15 +39,16 @@ export const RealmLeft = styled.div`
 
 export const RealmRight = styled.div`
   margin-left: 50px;
-  width: 30vw;
+  width: 32vw;
   @media (max-width: 700px) {
-    width: 50vw;
+    width: 60vw;
+    margin-left: 10px;
   }
 `;
 
 export const RealmContentText = styled.h2`
   font: 400 1rem/1.1 Roobert;
-  flex: 1;
+  word-break: break-all;
   color: #fff;
   @media (min-width: 43.8125rem) {
     font-size: 1.2rem;

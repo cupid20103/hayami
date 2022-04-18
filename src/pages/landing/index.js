@@ -5,6 +5,7 @@ import { LandingLayout } from "../../layouts";
 import Hero from "./hero";
 import Realm from "./realm";
 import Discord from "./discord";
+import Roadmap from "./roadmap";
 // @import styles
 const SectionGroupContainer = styled.div`
   opacity: 1;
@@ -42,6 +43,7 @@ const Landing = () => {
             <Hero />
             <Realm />
             <Discord />
+            <Roadmap />
           </SectionContent>
         </SectionGroup>
       </SectionGroupContainer>

@@ -54,7 +54,7 @@ export const DiscordLeft = styled.div`
 
 export const DiscordContentText = styled.h2`
   font: 400 1rem/1.1 Roobert;
-  flex: 1;
+  word-break: break-all;
   color: #fff;
   @media (min-width: 43.8125rem) {
     font-size: 1.2rem;
@@ -65,9 +65,10 @@ export const DiscordContentText = styled.h2`
 `;
 
 export const DiscordRight = styled.div`
-  width: 30vw;
+  width: 32vw;
   margin-left: 50px;
   @media (max-width: 700px) {
-    width: 50vw;
+    width: 60vw;
+    margin-left: 10px;
   }
 `;

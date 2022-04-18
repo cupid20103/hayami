@@ -7,6 +7,11 @@
   src: url("/src/assets/fonts/GT-America-Mono-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Japanese-3017";
+  src: url("/src/assets/fonts/japanese_3017/Japanese\ 3017.ttf");
+}
+
 body {
   font-size: 16px;
   font-size: 1.6rem;

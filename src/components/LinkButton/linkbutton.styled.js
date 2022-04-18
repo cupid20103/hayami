@@ -5,20 +5,20 @@ export const LinkButtonContainer = styled.a`
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 2.875rem;
-  padding: 0 1.25rem;
-  margin: 1.5625rem auto;
+  width: ${(props) => props.widthProps};
+  height: 2.5rem;
+  margin: 15px 0;
   border-radius: 0.125rem;
   overflow: hidden;
   transition: color 0.4s cubic-bezier(0.19, 1, 0.22, 1);
   color: #fff;
-  background: ${(props) => (props.flag ? "#000" : "hsla(0, 0%, 100%, 0.2)")};
+  background: hsla(0, 0%, 100%, 0.2);
   -webkit-backdrop-filter: blur(44px);
   backdrop-filter: blur(44px);
+  clip-path: polygon(0% 20px, 100% -100px, 100% 20px, 0% 150px);
   cursor: pointer;
   :hover {
     color: #000;
-    border: ${(props) => (props.flag ? "1px solid #000" : "none")};
     ::before {
       transform: none;
       transform-origin: bottom center;
@@ -39,5 +39,8 @@ export const LinkButtonContainer = styled.a`
   span {
     position: relative;
     font: 400 0.75rem/1 GT America Mono Regular;
+  }
+  @media (max-width: 1024px) {
+    width: calc(${(props) => props.widthProps} / 4 * 3);
   }
 `;

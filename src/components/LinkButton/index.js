@@ -3,7 +3,7 @@ import { LinkButtonContainer } from "./linkbutton.styled";
 
 const LinkButton = (props) => {
   return (
-    <LinkButtonContainer href={props.target}>
+    <LinkButtonContainer href={props.targetProps} widthProps={props.widthProps}>
       {props.children}
     </LinkButtonContainer>
   );
