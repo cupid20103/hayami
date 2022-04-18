@@ -45,7 +45,8 @@ const Header = () => {
               <HeaderMobileHeaderContent
                 to={"hero"}
                 smooth={true}
-                duration={1500}
+                duration={1000}
+                onClick={() => setIsOpened(!isOpened)}
               >
                 <img src={logo} alt={"logo"} />
               </HeaderMobileHeaderContent>
@@ -56,7 +57,7 @@ const Header = () => {
                   key={index}
                   to={item.to}
                   smooth={true}
-                  duration={1500}
+                  duration={1000}
                   onClick={() => setIsOpened(!isOpened)}
                 >
                   <span>{item.value}</span>
@@ -66,7 +67,7 @@ const Header = () => {
           </HeaderMobileContent>
         </HeaderMobile>
         <HeaderItems>
-          <HeaderLogo to={"hero"} smooth={true} duration={1500}>
+          <HeaderLogo to={"hero"} smooth={true} duration={1000}>
             <img src={logo} alt={"logo"} />
           </HeaderLogo>
           <HeaderNav isMobile={isMobile}>
@@ -75,7 +76,7 @@ const Header = () => {
                 to={item.to}
                 key={index}
                 smooth={true}
-                duration={1500}
+                duration={1000}
               >
                 <span>{item.value}</span>
               </HeaderNavItem>

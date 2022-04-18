@@ -8,9 +8,6 @@ export const RealmContainer = styled.section`
   min-height: 100vh;
   background-color: #000;
   overflow: hidden;
-  @media (max-width: 700px) {
-    min-height: 80vh;
-  }
 `;
 
 export const RealmContent = styled.div`
@@ -69,5 +66,13 @@ export const RealmBack = styled.div`
   img {
     width: auto;
     height: 100%;
+  }
+  @media (max-width: 700px) {
+    right: -50px;
+    clip-path: polygon(65% 0%, 100% 0, 100% 100%, 45% 100%);
+  }
+  @media (max-width: 425px) {
+    right: -100px;
+    clip-path: polygon(70% 0%, 100% 0, 100% 100%, 50% 100%);
   }
 `;
