@@ -42,7 +42,7 @@ const Header = () => {
               <HeaderMobileHeaderClose onClick={() => setIsOpened(!isOpened)}>
                 <FaTimes />
               </HeaderMobileHeaderClose>
-              <HeaderMobileHeaderContent to={"/"}>
+              <HeaderMobileHeaderContent to={"/"} smooth={true} duration={1500}>
                 <img src={logo} alt={"logo"} />
               </HeaderMobileHeaderContent>
             </HeaderMobileHeader>
@@ -51,6 +51,8 @@ const Header = () => {
                 <HeaderMobileNavItem
                   key={index}
                   to={item.to}
+                  smooth={true}
+                  duration={1500}
                   onClick={() => setIsOpened(!isOpened)}
                 >
                   <span>{item.value}</span>
@@ -60,12 +62,17 @@ const Header = () => {
           </HeaderMobileContent>
         </HeaderMobile>
         <HeaderItems>
-          <HeaderLogo to={"/"}>
+          <HeaderLogo to={"/"} smooth={true} duration={1500}>
             <img src={logo} alt={"logo"} />
           </HeaderLogo>
           <HeaderNav isMobile={isMobile}>
             {links.map((item, index) => (
-              <HeaderNavItem to={item.to} key={index}>
+              <HeaderNavItem
+                to={item.to}
+                key={index}
+                smooth={true}
+                duration={1500}
+              >
                 <span>{item.value}</span>
               </HeaderNavItem>
             ))}

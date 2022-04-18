@@ -1,22 +1,22 @@
 export const links = [
   {
-    to: "/",
+    to: "realm",
     value: "The Realm",
   },
   {
-    to: "/",
+    to: "hayami",
     value: "What's Hayami",
   },
   {
-    to: "/",
+    to: "roadmap",
     value: "Roadmap",
   },
   {
-    to: "/",
+    to: "team",
     value: "Team",
   },
   {
-    to: "/",
+    to: "social",
     value: "Social",
   },
 ];
