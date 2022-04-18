@@ -15,7 +15,7 @@ export const DiscordBack = styled.div`
   position: absolute;
   left: 0;
   img {
-    width: 50vw;
+    width: 65vw;
     height: auto;
     @media (max-width: 1024px) {
       width: 500px;
