@@ -9,7 +9,7 @@ export const SocialsLinkContainer = styled.a`
   cursor: pointer;
   img {
     width: auto;
-    height: 8rem;
+    height: 7rem;
   }
   @media (max-width: 700px) {
     margin: 20px 30px;
