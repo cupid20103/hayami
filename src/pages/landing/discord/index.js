@@ -21,6 +21,9 @@ const Discord = () => {
       </DiscordBack>
       <DiscordContent>
         <DiscordLeft>
+          <img src={gatekey} alt={"gatekey"} />
+        </DiscordLeft>
+        <DiscordRight>
           <DiscordContentText>
             {
               "Laborum id minim reprehenderit labore eiusmod id nostrud aute ipsum veniam ea eiusmod tempor. Proident sint ipsum laboris veniam Lorem. Sint fugiat commodo dolor minim id. Deserunt duis ut consectetur est veniam est velit ipsum nulla non."
@@ -32,13 +35,10 @@ const Discord = () => {
             }
             <br />
             <br />
-            <LinkButton href="/">
+            <LinkButton href={"/"}>
               <span>{"JOIN OUR DISCORD"}</span>
             </LinkButton>
           </DiscordContentText>
-        </DiscordLeft>
-        <DiscordRight>
-          <img src={gatekey} alt={"gatekey"} />
         </DiscordRight>
       </DiscordContent>
     </DiscordContainer>

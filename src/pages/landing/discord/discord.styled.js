@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const DiscordContainer = styled.section`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -30,6 +31,7 @@ export const DiscordContent = styled.div`
   z-index: 10;
   @media (max-width: 425px) {
     width: 100vw;
+    margin: 50px auto;
   }
   @media (max-width: 700px) {
     width: 85vw;
@@ -37,11 +39,16 @@ export const DiscordContent = styled.div`
 `;
 
 export const DiscordLeft = styled.div`
-  width: 30vw;
   margin-left: 30vw;
+  width: 3.5rem;
+  img {
+    height: auto;
+    @media (max-width: 700px) {
+      width: 3rem;
+    }
+  }
   @media (max-width: 700px) {
     margin: auto;
-    width: 50vw;
   }
 `;
 
@@ -58,12 +65,9 @@ export const DiscordContentText = styled.h2`
 `;
 
 export const DiscordRight = styled.div`
-  margin-left: 20px;
-  width: 3.5rem;
-  img {
-    height: auto;
-    @media (max-width: 700px) {
-      width: 3rem;
-    }
+  width: 30vw;
+  margin-left: 50px;
+  @media (max-width: 700px) {
+    width: 50vw;
   }
 `;
