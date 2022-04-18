@@ -5,7 +5,7 @@ export const TeamMemberContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto 25px;
+  margin: auto 30px;
   img {
     width: 10rem;
     height: auto;
@@ -17,7 +17,7 @@ export const TeamMemberTitle = styled.h1`
   text-align: center;
   word-break: break-all;
   color: #fff;
-  margin-top: 10px;
+  margin: 15px auto;
   @media (min-width: 43.8125rem) {
     font-size: 1.5rem;
   }
@@ -31,11 +31,13 @@ export const TeamMemberText = styled.p`
   text-align: center;
   word-break: break-all;
   color: #fff;
-  margin: 20px auto;
+  margin-bottom: 30px;
   @media (min-width: 43.8125rem) {
     font-size: 1rem;
+    margin-bottom: 40px;
   }
   @media (min-width: 64.0625rem) {
     font-size: 1.2rem;
+    margin-bottom: 50px;
   }
 `;

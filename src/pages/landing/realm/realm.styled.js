@@ -70,11 +70,11 @@ export const RealmBack = styled.div`
     height: 100%;
   }
   @media (max-width: 700px) {
-    right: -50px;
+    right: -60px;
     clip-path: polygon(65% 0%, 100% 0, 100% 100%, 45% 100%);
   }
   @media (max-width: 425px) {
-    right: -100px;
+    right: -120px;
     clip-path: polygon(70% 0%, 100% 0, 100% 100%, 50% 100%);
   }
 `;

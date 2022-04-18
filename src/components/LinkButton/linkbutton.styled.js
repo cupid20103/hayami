@@ -15,6 +15,7 @@ export const LinkButtonContainer = styled.a`
   background: hsla(0, 0%, 100%, 0.2);
   -webkit-backdrop-filter: blur(44px);
   backdrop-filter: blur(44px);
+  -webkit-clip-path: polygon(0% 20px, 100% -100px, 100% 20px, 0% 150px);
   clip-path: polygon(0% 20px, 100% -100px, 100% 20px, 0% 150px);
   cursor: pointer;
   :hover {
