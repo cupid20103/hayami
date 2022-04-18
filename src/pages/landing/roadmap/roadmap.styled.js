@@ -25,15 +25,16 @@ export const RoadmapContent = styled.div`
 
 export const RoadmapLeft = styled.div`
   margin-left: -30vw;
-  width: 3.5rem;
-  @media (max-width: 700px) {
-    margin: auto;
-  }
   img {
+    width: 3.5rem;
     height: auto;
     @media (max-width: 700px) {
       width: 3rem;
+      height: auto;
     }
+  }
+  @media (max-width: 700px) {
+    margin: auto;
   }
 `;
 
@@ -64,7 +65,7 @@ export const RoadmapContentTitle = styled.h1`
     font-size: 1.5rem;
   }
   @media (min-width: 64.0625rem) {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 `;
 
@@ -94,7 +95,7 @@ export const RoadmapBack = styled.div`
   position: absolute;
   right: 0;
   img {
-    width: 45vw;
+    width: 40vw;
     height: auto;
     @media (max-width: 1024px) {
       width: 500px;

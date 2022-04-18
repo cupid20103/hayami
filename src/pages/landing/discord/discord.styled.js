@@ -40,11 +40,12 @@ export const DiscordContent = styled.div`
 
 export const DiscordLeft = styled.div`
   margin-left: 30vw;
-  width: 3.5rem;
   img {
+    width: 3.5rem;
     height: auto;
     @media (max-width: 700px) {
       width: 3rem;
+      height: auto;
     }
   }
   @media (max-width: 700px) {

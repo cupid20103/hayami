@@ -6,6 +6,7 @@ import Hero from "./hero";
 import Realm from "./realm";
 import Discord from "./discord";
 import Roadmap from "./roadmap";
+import Team from "./team";
 // @import styles
 const SectionGroupContainer = styled.div`
   opacity: 1;
@@ -44,6 +45,7 @@ const Landing = () => {
             <Realm />
             <Discord />
             <Roadmap />
+            <Team />
           </SectionContent>
         </SectionGroup>
       </SectionGroupContainer>

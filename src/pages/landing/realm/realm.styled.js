@@ -25,15 +25,16 @@ export const RealmContent = styled.div`
 
 export const RealmLeft = styled.div`
   margin-left: -30vw;
-  width: 3.5rem;
-  @media (max-width: 700px) {
-    margin: auto;
-  }
   img {
+    width: 3.5rem;
     height: auto;
     @media (max-width: 700px) {
       width: 3rem;
+      height: auto;
     }
+  }
+  @media (max-width: 700px) {
+    margin: auto;
   }
 `;
 
