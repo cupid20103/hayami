@@ -14,7 +14,7 @@ export const TeamContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1440px;
+  max-width: 1024px;
   @media (max-width: 425px) {
     flex-direction: column;
   }

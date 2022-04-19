@@ -37,8 +37,6 @@ const Roadmap = () => {
               {
                 "Exercitation esse minim ad pariatur et non non adipisicing ullamco velit veniam reprehenderit officia. Voluptate ea irure et amet est in consectetur nisi ullamco amet in aliqua qui."
               }
-              <br />
-              <br />
             </RoadmapContentText>
           </RoadmapRightContent>
           <RoadmapActions>

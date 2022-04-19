@@ -7,7 +7,7 @@ export const LinkButtonContainer = styled.a`
   position: relative;
   width: ${(props) => props.widthProps};
   height: 2.5rem;
-  margin: 15px 0;
+  margin: 50px 0;
   border-radius: 0.125rem;
   overflow: hidden;
   transition: color 0.4s cubic-bezier(0.19, 1, 0.22, 1);

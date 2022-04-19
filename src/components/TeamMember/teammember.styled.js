@@ -30,7 +30,7 @@ export const TeamMemberText = styled.p`
   font: 400 0.7rem/1.1 Roobert;
   text-align: center;
   word-break: break-all;
-  color: #fff;
+  color: #e6e600;
   margin-bottom: 30px;
   @media (min-width: 43.8125rem) {
     font-size: 1rem;

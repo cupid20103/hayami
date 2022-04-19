@@ -21,12 +21,17 @@ const Realm = () => {
         <RealmRight>
           <RealmContentText>
             {
-              "Laborum id minim reprehenderit labore eiusmod id nostrud aute ipsum veniam ea eiusmod tempor. Proident sint ipsum laboris veniam Lorem. Sint fugiat commodo dolor minim id. Deserunt duis ut consectetur est veniam est velit ipsum nulla non."
+              "Hayami is a collection of 9,999 beautifully designed 3D NFTs on the ethereum blockchain."
             }
             <br />
             <br />
             {
-              "Exercitation esse minim ad pariatur et non non adipisicing ullamco velit veniam reprehenderit officia. Voluptate ea irure et amet est in consectetur nisi ullamco amet in aliqua qui."
+              "Community is at the heart of Hayami, and so we've built our project with this in mind. From community funded initiatives to metaverse gaming experiences with our NFT avatars, Hayami is more than just a project: it’s a whole new world."
+            }
+            <br />
+            <br />
+            {
+              "Read more about our project and find out social media profiles below. We can't wait to have you onboard!"
             }
           </RealmContentText>
         </RealmRight>

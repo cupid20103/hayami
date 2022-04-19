@@ -27,15 +27,13 @@ const Discord = () => {
         <DiscordRight>
           <DiscordContentText>
             {
-              "Laborum id minim reprehenderit labore eiusmod id nostrud aute ipsum veniam ea eiusmod tempor. Proident sint ipsum laboris veniam Lorem. Sint fugiat commodo dolor minim id. Deserunt duis ut consectetur est veniam est velit ipsum nulla non."
+              "With such an emphasis on community, we want to reward those who are active and engaged—by offering them a gate key. Unlocking exclusive channels in our discord and more, gate key holders will be guaranteed the opportunity to mint."
             }
             <br />
             <br />
             {
-              "Exercitation esse minim ad pariatur et non non adipisicing ullamco velit veniam reprehenderit officia. Voluptate ea irure et amet est in consectetur nisi ullamco amet in aliqua qui."
+              "From fan art and retweeting our posts to helping out fellow members, this can take many forms ; what we look for is meaningful engagement."
             }
-            <br />
-            <br />
             <DiscordActions>
               <LinkButton targetProps={"/"} widthProps={"200px"}>
                 <span>{"JOIN OUR DISCORD"}</span>
