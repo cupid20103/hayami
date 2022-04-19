@@ -44,6 +44,7 @@ export const DiscordContent = styled.div`
   z-index: 10;
   @media (max-width: 425px) {
     flex-direction: column;
+    margin-top: 0;
   }
   @media (max-width: 700px) {
     width: 85vw;
@@ -71,7 +72,7 @@ export const DiscordLeft = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 200px;
     transform: rotate(90deg);
   }
 `;

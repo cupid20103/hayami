@@ -37,18 +37,8 @@ html {
 }
 
 :root {
-  --dark: #151416;
-  --green: #7dd796;
-  --red: #d4423b;
   --page-grey: #858a97;
-  --page-blue: #2e9ec3;
-  --page-red: #bc1010;
-  --page-pink: #d69dbb;
-  --page-blue-light: #20b0d7;
-  --page-blue-grey: #9faac0;
   --page-hayami: #a3cbdd;
-
-  --polygon: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);
 }
 
 *,
