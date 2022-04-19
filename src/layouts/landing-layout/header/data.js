@@ -16,7 +16,7 @@ export const links = [
     value: "Team",
   },
   {
-    to: "social",
+    to: "socials",
     value: "Social",
   },
 ];
