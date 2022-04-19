@@ -26,12 +26,6 @@ export const LoadingContent = styled.div`
   border-radius: 50%;
   text-align: center;
   line-height: 150px;
-  font-family: sans-serif;
-  font-size: 20px;
-  color: #66abeb;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px #7f7f7f;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   &:before {
     content: "";
@@ -54,7 +48,7 @@ export const LoadingContent = styled.div`
     }
   }
   img {
-    width: 60px;
+    width: 65px;
     height: auto;
   }
 `;
