@@ -29,16 +29,16 @@ export const teams = [
   },
   {
     title: "ARABUTO",
-    description: "FOUNDER & MARKETER",
+    description: "COMMUNITY MANAGER",
     source: arabuto,
   },
   {
     title: "AKASHIKA",
-    description: "FOUNDER & MARKETER",
+    description: "LEAD MOD",
     source: akashika,
   },
   {
-    title: "Tai",
+    title: "TAI",
     description: "LEAD DEV",
     source: tai,
   },
