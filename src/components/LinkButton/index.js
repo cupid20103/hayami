@@ -12,7 +12,7 @@ const LinkButton = (props) => {
           {props.children}
         </LinkButtonContainerExternal>
       ) : (
-        <LinkButtonContainerInternal>
+        <LinkButtonContainerInternal onClick={props.event}>
           {props.children}
         </LinkButtonContainerInternal>
       )}

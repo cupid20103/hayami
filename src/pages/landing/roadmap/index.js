@@ -21,8 +21,7 @@ import back_roadmap from "../../../assets/images/back_roadmap.png";
 import roadmap from "../../../assets/images/roadmap.png";
 
 const Roadmap = () => {
-  const navigationPrevRef = React.useRef(null);
-  const navigationNextRef = React.useRef(null);
+  const swiperRef = React.useRef(null);
 
   return (
     <RoadmapContainer id={"roadmap"}>
@@ -31,12 +30,7 @@ const Roadmap = () => {
           <img src={roadmap} alt={"roadmap"} />
         </RoadmapLeft>
         <RoadmapRight data-aos="fade-up" className="aos-init aos-animate">
-          <RoadmapRightContent
-            navigation={{
-              prevEl: navigationPrevRef.current,
-              nextEl: navigationNextRef.current,
-            }}
-          >
+          <RoadmapRightContent ref={swiperRef}>
             {roadmaps.map((item, index) => (
               <SwiperSlide key={index}>
                 <RoadmapContentTitle>{item.title}</RoadmapContentTitle>
@@ -45,10 +39,10 @@ const Roadmap = () => {
             ))}
           </RoadmapRightContent>
           <RoadmapActions>
-            <LinkButton ref={navigationPrevRef}>
+            <LinkButton event={() => swiperRef.current.swiper.slidePrev()}>
               <span>{"PREVIOUS"}</span>
             </LinkButton>
-            <LinkButton ref={navigationNextRef}>
+            <LinkButton event={() => swiperRef.current.swiper.slideNext()}>
               <span>{"NEXT"}</span>
             </LinkButton>
           </RoadmapActions>
