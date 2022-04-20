@@ -17,7 +17,7 @@ export const roadmaps = [
   {
     title: "Phase 4 | Chosen One",
     content:
-      "In the fourth phase, there will be a second vote held for the 10 prototypes developed by the previous 10 winners. The winner will be allocated an additional 100,000$ to bring their idea to life! They will be encouraged to work together with the core team and other community members, and bring their idea to life—benefitting the entire community! In addition to funding, they will also receieve a reward.",
+      "In the fourth phase, there will be a second vote held for the 10 prototypes developed by the previous 10 winners. The winner will be allocated an additional 100,000$ to bring their idea to life! They will be encouraged to work together with the core team and other community members, and bring their idea to life—benefitting the entire community! In addition to funding, they will also receive a reward.",
   },
   {
     title: "Phase 5 | Playground",
