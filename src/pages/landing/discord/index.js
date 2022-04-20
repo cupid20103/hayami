@@ -35,7 +35,10 @@ const Discord = () => {
               "From fan art and retweeting our posts to helping out fellow members, this can take many forms ; what we look for is meaningful engagement."
             }
             <DiscordActions>
-              <LinkButton target={"/"} flag>
+              <LinkButton
+                target={"https://discord.com/invite/hayamiworld"}
+                flag
+              >
                 <span>{"JOIN OUR DISCORD"}</span>
               </LinkButton>
             </DiscordActions>

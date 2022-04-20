@@ -15,11 +15,17 @@ const Bot = () => {
     <BotContainer>
       <BotContent>
         <BotItems>
-          <BotMessageItem href={"/"} target={"_blank"}>
+          <BotMessageItem
+            href={"https://discord.com/invite/hayamiworld"}
+            target={"_blank"}
+          >
             <span>{"Join our Discord now!"}</span>
             <BotMessageSVG />
           </BotMessageItem>
-          <BotImageItem to={"/mekabots"}>
+          <BotImageItem
+            href={"https://discord.com/invite/hayamiworld"}
+            target={"_blank"}
+          >
             <img src={avatar} alt={"Claim your Mekabots"} />
           </BotImageItem>
         </BotItems>
