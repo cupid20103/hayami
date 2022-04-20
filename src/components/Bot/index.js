@@ -15,7 +15,7 @@ const Bot = () => {
     <BotContainer>
       <BotContent>
         <BotItems>
-          <BotMessageItem to={"/mekabots"}>
+          <BotMessageItem href={"/"} target={"_blank"}>
             <span>{"Join our Discord now!"}</span>
             <BotMessageSVG />
           </BotMessageItem>

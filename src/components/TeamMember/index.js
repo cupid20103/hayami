@@ -7,7 +7,7 @@ import {
 
 const TeamMember = (props) => {
   return (
-    <TeamMemberContainer>
+    <TeamMemberContainer data-aos="fade-up" className="aos-init aos-animate">
       <img src={props.source} alt={props.title} />
       <TeamMemberTitle>{props.title}</TeamMemberTitle>
       <TeamMemberText>{props.description}</TeamMemberText>

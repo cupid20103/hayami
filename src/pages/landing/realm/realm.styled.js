@@ -68,7 +68,6 @@ export const RealmRight = styled.div`
 
 export const RealmContentText = styled.h2`
   font: 400 1rem/1.1 Roobert;
-  word-break: break-all;
   color: #fff;
   @media (min-width: 43.8125rem) {
     font-size: 1.2rem;

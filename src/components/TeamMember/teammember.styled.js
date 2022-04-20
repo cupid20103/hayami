@@ -15,7 +15,6 @@ export const TeamMemberContainer = styled.div`
 export const TeamMemberTitle = styled.h1`
   font: 500 1.2rem/1.1 Japanese-3017;
   text-align: center;
-  word-break: break-all;
   color: #fff;
   margin: 15px auto;
   @media (min-width: 43.8125rem) {
@@ -29,7 +28,6 @@ export const TeamMemberTitle = styled.h1`
 export const TeamMemberText = styled.p`
   font: 400 0.7rem/1.1 Roobert;
   text-align: center;
-  word-break: break-all;
   color: #e6e600;
   margin-bottom: 30px;
   @media (min-width: 43.8125rem) {

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { NavLink as Link } from "react-router-dom";
 
 export const BotContainer = styled.div`
   display: none;
@@ -36,7 +35,7 @@ export const BotItems = styled.div`
   pointer-events: auto;
 `;
 
-export const BotImageItem = styled(Link)`
+export const BotImageItem = styled.a`
   position: relative;
   width: 4.8125rem;
   height: 4.375rem;
@@ -55,7 +54,7 @@ export const BotImageItem = styled(Link)`
   }
 `;
 
-export const BotMessageItem = styled(Link)`
+export const BotMessageItem = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;

@@ -24,7 +24,7 @@ const Discord = () => {
         <DiscordLeft>
           <img src={gatekey} alt={"gatekey"} />
         </DiscordLeft>
-        <DiscordRight>
+        <DiscordRight data-aos="fade-up" className="aos-init aos-animate">
           <DiscordContentText>
             {
               "With such an emphasis on community, we want to reward those who are active and engaged—by offering them a gate key. Unlocking exclusive channels in our discord and more, gate key holders will be guaranteed the opportunity to mint."
@@ -35,7 +35,7 @@ const Discord = () => {
               "From fan art and retweeting our posts to helping out fellow members, this can take many forms ; what we look for is meaningful engagement."
             }
             <DiscordActions>
-              <LinkButton targetProps={"/"} widthProps={"200px"}>
+              <LinkButton target={"/"} flag>
                 <span>{"JOIN OUR DISCORD"}</span>
               </LinkButton>
             </DiscordActions>

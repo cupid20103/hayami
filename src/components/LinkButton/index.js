@@ -1,11 +1,22 @@
 // @import styles
-import { LinkButtonContainer } from "./linkbutton.styled";
+import {
+  LinkButtonContainerExternal,
+  LinkButtonContainerInternal,
+} from "./linkbutton.styled";
 
 const LinkButton = (props) => {
   return (
-    <LinkButtonContainer href={props.targetProps} widthProps={props.widthProps}>
-      {props.children}
-    </LinkButtonContainer>
+    <>
+      {props.flag ? (
+        <LinkButtonContainerExternal href={props.target} target={"_blank"}>
+          {props.children}
+        </LinkButtonContainerExternal>
+      ) : (
+        <LinkButtonContainerInternal>
+          {props.children}
+        </LinkButtonContainerInternal>
+      )}
+    </>
   );
 };
 

@@ -23,7 +23,6 @@ export const SocialsLinkContainer = styled.a`
 export const SocialsLinkTitle = styled.h1`
   font: 500 1.2rem/1.1 Japanese-3017;
   text-align: center;
-  word-break: break-all;
   color: #fff;
   margin: 20px auto;
   @media (min-width: 43.8125rem) {

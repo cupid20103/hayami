@@ -18,7 +18,7 @@ const Realm = () => {
         <RealmLeft>
           <img src={realm} alt={"realm"} />
         </RealmLeft>
-        <RealmRight>
+        <RealmRight data-aos="fade-up" className="aos-init aos-animate">
           <RealmContentText>
             {
               "Hayami is a collection of 9,999 beautifully designed 3D NFTs on the ethereum blockchain."

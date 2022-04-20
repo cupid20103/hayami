@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Swiper } from "swiper/react";
 
 export const RoadmapContainer = styled.section`
   display: flex;
@@ -65,7 +66,7 @@ export const RoadmapRight = styled.div`
   }
 `;
 
-export const RoadmapRightContent = styled.div`
+export const RoadmapRightContent = styled(Swiper)`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,7 +78,6 @@ export const RoadmapRightContent = styled.div`
 export const RoadmapContentTitle = styled.h1`
   font: 500 1.2rem/1.1 Japanese-3017;
   text-align: center;
-  word-break: break-all;
   color: #fff;
   @media (min-width: 43.8125rem) {
     font-size: 1.5rem;
@@ -89,7 +89,6 @@ export const RoadmapContentTitle = styled.h1`
 
 export const RoadmapContentText = styled.h2`
   font: 400 1rem/1.1 Roobert;
-  word-break: break-all;
   color: #fff;
   margin-top: 20px;
   @media (min-width: 43.8125rem) {

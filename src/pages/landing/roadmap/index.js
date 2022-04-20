@@ -1,3 +1,6 @@
+import React from "react";
+import { SwiperSlide } from "swiper/react";
+import "swiper/css";
 // @import components
 import LinkButton from "../../../components/LinkButton";
 // @import styles
@@ -13,37 +16,39 @@ import {
   RoadmapRightContent,
 } from "./roadmap.styled";
 // @import resources
+import { roadmaps } from "./data";
 import back_roadmap from "../../../assets/images/back_roadmap.png";
 import roadmap from "../../../assets/images/roadmap.png";
 
 const Roadmap = () => {
+  const navigationPrevRef = React.useRef(null);
+  const navigationNextRef = React.useRef(null);
+
   return (
     <RoadmapContainer id={"roadmap"}>
       <RoadmapContent>
         <RoadmapLeft>
           <img src={roadmap} alt={"roadmap"} />
         </RoadmapLeft>
-        <RoadmapRight>
-          <RoadmapRightContent>
-            <RoadmapContentTitle>
-              {"PHASE 1 [COMMUNITY LAUNCH]"}
-            </RoadmapContentTitle>
-            <RoadmapContentText>
-              {
-                "Laborum id minim reprehenderit labore eiusmod id nostrud aute ipsum veniam ea eiusmod tempor. Proident sint ipsum laboris veniam Lorem. Sint fugiat commodo dolor minim id. Deserunt duis ut consectetur est veniam est velit ipsum nulla non."
-              }
-              <br />
-              <br />
-              {
-                "Exercitation esse minim ad pariatur et non non adipisicing ullamco velit veniam reprehenderit officia. Voluptate ea irure et amet est in consectetur nisi ullamco amet in aliqua qui."
-              }
-            </RoadmapContentText>
+        <RoadmapRight data-aos="fade-up" className="aos-init aos-animate">
+          <RoadmapRightContent
+            navigation={{
+              prevEl: navigationPrevRef.current,
+              nextEl: navigationNextRef.current,
+            }}
+          >
+            {roadmaps.map((item, index) => (
+              <SwiperSlide key={index}>
+                <RoadmapContentTitle>{item.title}</RoadmapContentTitle>
+                <RoadmapContentText>{item.content}</RoadmapContentText>
+              </SwiperSlide>
+            ))}
           </RoadmapRightContent>
           <RoadmapActions>
-            <LinkButton widthProps={"120px"}>
+            <LinkButton ref={navigationPrevRef}>
               <span>{"PREVIOUS"}</span>
             </LinkButton>
-            <LinkButton widthProps={"120px"}>
+            <LinkButton ref={navigationNextRef}>
               <span>{"NEXT"}</span>
             </LinkButton>
           </RoadmapActions>
