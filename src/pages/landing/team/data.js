@@ -9,7 +9,7 @@ import tai from "../../../assets/images/tai.png";
 export const teams = [
   {
     title: "KIYOSHI",
-    description: "FOUNDER & DESINER",
+    description: "FOUNDER & DESIGNER",
     source: kiyoshi,
   },
   {
@@ -24,7 +24,7 @@ export const teams = [
   },
   {
     title: "YUGEN",
-    description: "3D ARTISIT & ANIMATOR",
+    description: "3D ARTIST & ANIMATOR",
     source: yugen,
   },
   {
