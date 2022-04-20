@@ -16,7 +16,7 @@ import gatekey from "../../../assets/images/gatekey.png";
 
 const Discord = () => {
   return (
-    <DiscordContainer id={"hayami"}>
+    <DiscordContainer id={"gatekey"}>
       <DiscordBack>
         <img src={back_discord} alt={"back_discord"} />
       </DiscordBack>

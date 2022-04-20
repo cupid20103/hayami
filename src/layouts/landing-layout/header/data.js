@@ -4,8 +4,8 @@ export const links = [
     value: "The Realm",
   },
   {
-    to: "hayami",
-    value: "What's Hayami",
+    to: "gatekey",
+    value: "Gate Key",
   },
   {
     to: "roadmap",
