@@ -28,7 +28,7 @@ export const TeamMemberTitle = styled.h1`
 export const TeamMemberText = styled.p`
   font: 400 0.7rem/1.1 Roobert;
   text-align: center;
-  color: #e6e600;
+  color: #fff;
   margin-bottom: 30px;
   @media (min-width: 43.8125rem) {
     font-size: 1rem;
