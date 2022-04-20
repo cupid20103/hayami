@@ -5,7 +5,8 @@ export const TeamMemberContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto 30px;
+  margin: auto;
+  width: 15rem;
   img {
     width: 10rem;
     height: auto;
