@@ -30,7 +30,7 @@ export const LoadingContent = styled.div`
   &:before {
     content: "";
     position: absolute;
-    left: -1px;
+    left: 0px;
     width: 100%;
     height: 100%;
     border: 3px solid transparent;
