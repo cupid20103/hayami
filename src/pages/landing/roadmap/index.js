@@ -34,7 +34,8 @@ const Roadmap = () => {
             {roadmaps.map((item, index) => (
               <SwiperSlide key={index}>
                 <RoadmapContentTitle>{item.title}</RoadmapContentTitle>
-                <RoadmapContentText>{item.content}</RoadmapContentText>
+                <RoadmapContentText>{item.content1}</RoadmapContentText>
+                <RoadmapContentText>{item.content2}</RoadmapContentText>
               </SwiperSlide>
             ))}
           </RoadmapRightContent>
