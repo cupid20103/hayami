@@ -28,7 +28,7 @@ export const teams = [
     source: yugen,
   },
   {
-    title: "ARABUTO",
+    title: "ARUBATO",
     description: "COMMUNITY MANAGER",
     source: arabuto,
   },

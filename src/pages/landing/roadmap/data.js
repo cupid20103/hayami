@@ -27,7 +27,7 @@ export const roadmaps = [
   {
     title: "Phase 6 | Merch",
     content:
-      "Taking Hayami off-chain and into the real world, it's time to release our own exclusive merchandise. We aim to create a wide range of products which encompasses our community as a whole. These designs will be made by both the team and community, and will be another great way for our community members to engage with the project directly Furthermore, the team will be rewarding artists whose designs make the cut!",
+      "Taking Hayami off-chain and into the real world, it's time to release our own exclusive merchandise. We aim to create a wide range of products which encompasses our community as a whole. These designs will be made by both the team and community, and will be another great way for our community members to engage with the project directly. Furthermore, the team will be rewarding artists whose designs make the cut!",
   },
   {
     title: "Phase 7 | Metaverse",

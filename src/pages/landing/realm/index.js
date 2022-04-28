@@ -21,7 +21,7 @@ const Realm = () => {
         <RealmRight data-aos="fade-up" className="aos-init aos-animate">
           <RealmContentText>
             {
-              "Hayami is a collection of 9,999 beautifully designed 3D NFTs on the ethereum blockchain."
+              "Hayami is a collection of 9,999 beautifully designed 3D NFTs on the Ethereum blockchain."
             }
             <br />
             <br />
@@ -31,7 +31,7 @@ const Realm = () => {
             <br />
             <br />
             {
-              "Read more about our project and find out social media profiles below. We can't wait to have you onboard!"
+              "Read more about our project and find our social media profiles below. We can't wait to have you onboard!"
             }
           </RealmContentText>
         </RealmRight>
