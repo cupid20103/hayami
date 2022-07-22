@@ -1,70 +1,61 @@
 # Hayami
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Marketing landing page for **Hayami World**, a collection of 9,999 beautifully designed 3D NFTs on the Ethereum blockchain. The site presents the project's vision, gate key, roadmap, team, and social channels as a single animated single-page experience.
 
-## Available Scripts
+## Tech stack
 
-In the project directory, you can run:
+- **React 18** (bootstrapped with Create React App)
+- **react-router-dom v6** for routing
+- **styled-components** for component-scoped styling
+- **react-scroll** for smooth in-page section navigation
+- **swiper** for the roadmap carousel
+- **AOS** for on-scroll animations
+- **react-icons** for icons
 
-### `npm start`
+## Getting started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Prerequisites: [Node.js](https://nodejs.org/) (16+) and npm.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+npm start
+```
 
-### `npm test`
+The app runs in development mode at [http://localhost:3000](http://localhost:3000) and reloads on changes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Available scripts
 
-### `npm run build`
+| Command | Description |
+| --- | --- |
+| `npm start` | Run the app in development mode. |
+| `npm run build` | Build the production bundle into the `build` folder (source maps disabled). |
+| `npm test` | Run the test runner in interactive watch mode. |
+| `npm run eject` | Eject from Create React App (one-way operation). |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+src/
+  App.js                     Router and AOS initialization
+  index.js                   React 18 entry point
+  index.css                  Global styles, fonts, and CSS variables
+  assets/                    Images, fonts, and inline SVGs
+  components/                Reusable UI: Bot, LinkButton, Loading, SocialsLink, TeamMember
+  layouts/
+    landing-layout/          Header, page wrapper, and floating Discord widget
+  pages/
+    landing/                 Page sections: hero, realm, discord, roadmap, team, socials
+  utils/                     Helpers and hooks (getScreenWidth, useIsMobile)
+public/                      Static assets and HTML template
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Conventions
 
-### `npm run eject`
+- Each section and component lives in its own folder with an `index.js` for markup and logic and a co-located `*.styled.js` for styled-components.
+- Static content (nav links, team members, roadmap phases, socials) is kept in `data.js` files, separate from presentation.
+- Responsive behavior is driven by props passed to styled-components and the shared `useIsMobile` hook.
+- Double quotes are used throughout the codebase.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Run `npm run build` and serve the generated `build` folder with any static host. See the [Create React App deployment guide](https://create-react-app.dev/docs/deployment/) for platform-specific instructions.

@@ -1,9 +1,7 @@
 import React from "react";
 import { SwiperSlide } from "swiper/react";
 import "swiper/css";
-// @import components
 import LinkButton from "../../../components/LinkButton";
-// @import styles
 import {
   RoadmapActions,
   RoadmapBack,
@@ -15,7 +13,6 @@ import {
   RoadmapRight,
   RoadmapRightContent,
 } from "./roadmap.styled";
-// @import resources
 import { roadmaps } from "./data";
 import back_roadmap from "../../../assets/images/back_roadmap.png";
 import roadmap from "../../../assets/images/roadmap.png";

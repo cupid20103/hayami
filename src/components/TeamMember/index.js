@@ -1,4 +1,3 @@
-// @import styles
 import {
   TeamMemberContainer,
   TeamMemberText,

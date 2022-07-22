@@ -1,4 +1,3 @@
-// @import styles
 import {
   RealmBack,
   RealmContainer,
@@ -7,7 +6,6 @@ import {
   RealmLeft,
   RealmRight,
 } from "./realm.styled";
-// @import resources
 import back_realm from "../../../assets/images/back_realm.png";
 import realm from "../../../assets/images/realm.png";
 

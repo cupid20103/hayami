@@ -1,15 +1,15 @@
 @font-face {
   font-family: "Roobert";
-  src: url("/src/assets/fonts/Roobert-SemiBold.otf");
+  src: url("./assets/fonts/Roobert-SemiBold.otf");
 }
 @font-face {
   font-family: "GT America Mono Regular";
-  src: url("/src/assets/fonts/GT-America-Mono-Regular.ttf");
+  src: url("./assets/fonts/GT-America-Mono-Regular.ttf");
 }
 
 @font-face {
   font-family: "Japanese-3017";
-  src: url("/src/assets/fonts/japanese_3017/Japanese\ 3017.ttf");
+  src: url("./assets/fonts/japanese_3017/Japanese%203017.ttf");
 }
 
 body {

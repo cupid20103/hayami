@@ -1,13 +1,10 @@
-// @import components
 import SocialsLink from "../../../components/SocialsLink";
-// @import styles
 import {
   SocialsContainer,
   SocialsContent,
   SocialsLeft,
   SocialsRight,
 } from "./socials.styled";
-// @import resources
 import { links } from "./data";
 import socials from "../../../assets/images/socials.png";
 

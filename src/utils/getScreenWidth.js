@@ -1,7 +1,1 @@
-export const isScreenWidth = (width) => {
-  if (window.innerWidth > width) {
-    return false;
-  } else {
-    return true;
-  }
-};
+export const isScreenWidth = (width) => window.innerWidth <= width;

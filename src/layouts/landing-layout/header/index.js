@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-//@import styles
 import {
   HeaderContainer,
   HeaderContent,
@@ -17,21 +16,13 @@ import {
   HeaderNavItem,
   NavMobile,
 } from "./header.styled";
-//@import resources
-import { isScreenWidth } from "../../../utils/getScreenWidth";
+import { useIsMobile } from "../../../utils/useIsMobile";
 import { links } from "./data";
 import logo from "../../../assets/images/logo.png";
 
 const Header = () => {
-  const [isMobile, setIsMobile] = useState(false);
   const [isOpened, setIsOpened] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      setIsMobile(isScreenWidth(700));
-    });
-    setIsMobile(isScreenWidth(700));
-  }, []);
+  const isMobile = useIsMobile(700);
 
   return (
     <HeaderContainer>

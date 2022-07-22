@@ -1,4 +1,3 @@
-// @import styles
 import {
   BotContainer,
   BotContent,
@@ -6,7 +5,6 @@ import {
   BotItems,
   BotMessageItem,
 } from "./bot.styled";
-// @import resources
 import BotMessageSVG from "../../assets/svgs/BotMessageSVG";
 import avatar from "../../assets/images/avatar.png";
 

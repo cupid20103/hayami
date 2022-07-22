@@ -1,6 +1,4 @@
-// @import components
 import LinkButton from "../../../components/LinkButton";
-// @import styles
 import {
   DiscordActions,
   DiscordBack,
@@ -10,7 +8,6 @@ import {
   DiscordLeft,
   DiscordRight,
 } from "./discord.styled";
-// @import resources
 import back_discord from "../../../assets/images/back_discord.png";
 import gatekey from "../../../assets/images/gatekey.png";
 
@@ -27,7 +24,7 @@ const Discord = () => {
         <DiscordRight data-aos="fade-up" className="aos-init aos-animate">
           <DiscordContentText>
             {
-              "With such an emphasis on community, we want to reward those who are active and engaged—by offering them a gate key. Unlocking exclusive channels in our discord and more, gate key holders will be guaranteed the opportunity to mint."
+              "With such an emphasis on community, we want to reward those who are active and engaged, by offering them a gate key. Unlocking exclusive channels in our discord and more, gate key holders will be guaranteed the opportunity to mint."
             }
             <br />
             <br />

@@ -1,4 +1,3 @@
-// @import styles
 import { SocialsLinkContainer, SocialsLinkTitle } from "./socialslink.styled";
 
 const SocialsLink = (props) => {

@@ -1,8 +1,5 @@
-// @import components
 import TeamMember from "../../../components/TeamMember";
-// @import styles
 import { TeamContainer, TeamContent, TeamLeft, TeamRight } from "./team.styled";
-// @import resources
 import { teams } from "./data";
 import team from "../../../assets/images/team.png";
 
